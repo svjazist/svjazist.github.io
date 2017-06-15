@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'Arial';
+}
+
+
+h1 {
+	text-align: center;
+	color: #7186C7;
+	font-weight: normal;
+	font-size: 25px;
+	border-bottom: 1px solid #9CA9CB;
+	padding-bottom: 10px;
+}
+
+
+p {
+	margin: 15px 0;
+}
+
+
+input, button {
+	padding: 8px;
+	outline: none;
+	border-radius: 3px;
+}
+
+
+input {
+	box-sizing : border-box;
+	width: 100%;
+	border: 1px solid #D3D3D3;
+	background: #F9F9F9;
+}
+
+
+
+button {
+	width: 100%;
+	text-align: center;
+	background: #7186C7;
+	color: #FFF;
+	border: 0;
+}
+
+
+button:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+
+body {
+	background: #E4E9F4;
+}
+
+
+html ,body, .wrapper {
+	height: 100%;
+}
+
+
+.wrapper {
+	width: 1400px;
+	display: flex;
+	margin: 0 auto;
+}
+
+
+.slide, .content {
+	flex: 1;
+}
+
+
+.slide {
+	max-width: 300px;
+}
+
+
+.content {
+	padding: 20px;
+	background: #FFF;
+	border-radius: 3px;
+	margin: 20px 20px;
+}
+
+
+.slide div {
+	background: #FFF;
+	margin: 20px;
+	height: 260px;
+	border-radius: 3px;
+}
+
+
+.slide img {
+	width: 260px;
+	height: 260px;
+	border-radius: 3px;
+}
+
+
+.form {
+	width: 300px;
+	margin: 20px auto;
+}
